@@ -41,14 +41,14 @@ public class MenuController {
 				String fName = sInput.findStudent(students);
 				for(int i = 0; i < students.length; i ++) {
 					if( students[i].name == fName) {
-						sView.viewOne(students[i]);
+						sView.view(students[i]);
 						break;
 					}
 				}
 				break;
 			case 3:
 				System.out.println("학생 전체 정보를 출력합니다");
-				sView.viewList(students);
+				sView.view(students);
 				break;
 			case 4:
 				System.out.println("학생 정보를 수정합니다.");

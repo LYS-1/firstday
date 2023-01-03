@@ -1,0 +1,13 @@
+package com.iu.s4.objects1.ex1;
+
+public class Student {
+	//Data 덩어리(가방) DTO VO
+	String name;
+	int num;
+	int kor;
+	int eng;
+	int math;
+	int total;
+	double avg;
+
+}

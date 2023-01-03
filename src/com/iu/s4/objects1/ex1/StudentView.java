@@ -8,6 +8,7 @@ public class StudentView {
 		for(int i=0;i<students.length;i++) {
 			Student student = students[i];
 			//System.out.println(student[i].name);
+			this.view(student);
 			System.out.println("Name : "+student.name);
 			System.out.println("Num : "+student.num);
 			System.out.println("Kor : "+student.kor);
@@ -18,11 +19,8 @@ public class StudentView {
 			
 			if(i != students.length-1) {
 				System.out.println();
-			}
-			
+			}	
 		}
-		
-		
 	}
 	
 	//viewOne

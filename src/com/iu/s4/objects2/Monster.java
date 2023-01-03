@@ -4,8 +4,17 @@ public class Monster {
 	
 	//멤버 변수, instance변수
 	String name;
-	int hp;
-	int power;
+	int hp = 100;
+	int power = 10;
+	
+	//생성자 constructor
+	public Monster() {
+		//매개변수가 없는 생성자를 기본생성자(default constructor)or 빈 생성자
+		this.power = 50;
+		this.hp = 60;
+		System.out.println("생성자 실행");
+	}
+	
 	//멤버메서드, instance method
 	public boolean checkValue(Monster monster) {
 		//나의 파워와 같고, 나의 hp와 같으면 true , 아니면 false

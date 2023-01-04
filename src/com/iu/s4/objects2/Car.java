@@ -5,12 +5,17 @@ public class Car {
 	String company;
 	int price;
 	String color;
+	{//초기화 블럭
+		System.out.println("초기화 블럭 : "  + this.company);
+		this.company = "AUDI";
+	}
 	public Car() {
-		this("black");//생성자 내에서 다른 생성자 호출
-//		this.company = "kia";
-//		this.name = "스포티지";
-//		this.price = 3500;
-//		this.color = "black";
+//		this("black");//생성자 내에서 다른 생성자 호출
+		System.out.println("생성자 : " + this.company);
+		this.company = "kia";
+		this.name = "스포티지";
+		this.price = 3500;
+		this.color = "black";
 	}
 	public Car(String color) {
 		this(color, 3500);

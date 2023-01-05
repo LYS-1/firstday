@@ -8,6 +8,7 @@ public class Main {
 		robot.setArmLeft(armLeft);
 		System.out.println(robot.getArmLeft());
 		System.out.println(robot.getArmRight());
+		System.out.println("addrobot작업");
 		System.out.println("종료");
 	}
 }
